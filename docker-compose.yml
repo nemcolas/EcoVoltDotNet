@@ -1,0 +1,6 @@
+﻿services:
+  ecovolt:
+    image: ecovolt
+    build:
+      context: .
+      dockerfile: EcoVolt/Dockerfile

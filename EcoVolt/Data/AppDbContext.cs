@@ -21,4 +21,18 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<GsDispositivo>().ToTable("gs_dispositivo");
         modelBuilder.Entity<GsTipoDispositivo>().ToTable("gs_tipo_dispositivo");
     }
+
+    public DbSet<GsPais> GsPais { get; set; }
+    public DbSet<GsEstado> GsEstado { get; set; }
+    public DbSet<GsCidade> GsCidade { get; set; }
+    public DbSet<GsBairro> GsBairro { get; set; }
+    public DbSet<GsLocalizacao> GsLocalizacao { get; set; }
+    public DbSet<GsConsumidor> GsConsumidor { get; set; }
+    public DbSet<GsConsumoEnergia> GsConsumoEnergia { get; set; }
+    public DbSet<GsFonteEnergia> GsFonteEnergia { get; set; }
+    public DbSet<GsGeracaoEnergia> GsGeracaoEnergia { get; set; }
+    public DbSet<GsTipoConsumidor> GsTipoConsumidor { get; set; }
+    public DbSet<GsTipoFonte> GsTipoFonte { get; set; }
+    public DbSet<GsDispositivo> GsDispositivo { get; set; }
+    public DbSet<GsTipoDispositivo> GsTipoDispositivo { get; set; }
 }

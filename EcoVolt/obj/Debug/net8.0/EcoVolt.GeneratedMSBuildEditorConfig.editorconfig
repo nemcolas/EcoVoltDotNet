@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EcoVolt
 build_property.RootNamespace = EcoVolt
@@ -17,6 +25,246 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\nimar\RiderProjects\EcoVolt\EcoVolt
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsBairro/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NCYWlycm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsBairro/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NCYWlycm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsBairro/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NCYWlycm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsBairro/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NCYWlycm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsBairro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NCYWlycm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsCidade/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDaWRhZGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsCidade/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDaWRhZGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsCidade/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDaWRhZGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsCidade/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDaWRhZGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsCidade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDaWRhZGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumidor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1pZG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumidor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1pZG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumidor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1pZG9yXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumidor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1pZG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumidor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1pZG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumoEnergia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1vRW5lcmdpYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumoEnergia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1vRW5lcmdpYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumoEnergia/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1vRW5lcmdpYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumoEnergia/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1vRW5lcmdpYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsConsumoEnergia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NDb25zdW1vRW5lcmdpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsDispositivo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NEaXNwb3NpdGl2b1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsDispositivo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NEaXNwb3NpdGl2b1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsDispositivo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NEaXNwb3NpdGl2b1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsDispositivo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NEaXNwb3NpdGl2b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsDispositivo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NEaXNwb3NpdGl2b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsEstado/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NFc3RhZG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsEstado/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NFc3RhZG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsEstado/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NFc3RhZG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsEstado/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NFc3RhZG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsEstado/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NFc3RhZG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsGeracaoEnergia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NHZXJhY2FvRW5lcmdpYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsGeracaoEnergia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NHZXJhY2FvRW5lcmdpYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsGeracaoEnergia/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NHZXJhY2FvRW5lcmdpYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsGeracaoEnergia/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NHZXJhY2FvRW5lcmdpYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsGeracaoEnergia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NHZXJhY2FvRW5lcmdpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsLocalizacao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NMb2NhbGl6YWNhb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsLocalizacao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NMb2NhbGl6YWNhb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsLocalizacao/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NMb2NhbGl6YWNhb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsLocalizacao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NMb2NhbGl6YWNhb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsLocalizacao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NMb2NhbGl6YWNhb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsPais/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NQYWlzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsPais/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NQYWlzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsPais/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NQYWlzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsPais/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NQYWlzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsPais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NQYWlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoConsumidor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvQ29uc3VtaWRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoConsumidor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvQ29uc3VtaWRvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoConsumidor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvQ29uc3VtaWRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoConsumidor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvQ29uc3VtaWRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoConsumidor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvQ29uc3VtaWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoDispositivo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRGlzcG9zaXRpdm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoDispositivo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRGlzcG9zaXRpdm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoDispositivo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRGlzcG9zaXRpdm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoDispositivo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRGlzcG9zaXRpdm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoDispositivo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRGlzcG9zaXRpdm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoFonte/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRm9udGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoFonte/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRm9udGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoFonte/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRm9udGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoFonte/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRm9udGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/GsTipoFonte/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3NUaXBvRm9udGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nimar/RiderProjects/EcoVolt/EcoVolt/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=

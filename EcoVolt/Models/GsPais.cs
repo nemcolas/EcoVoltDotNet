@@ -1,15 +1,15 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EcoVolt.Models
+namespace EcoVolt.Models;
+
+[Table("GS_PAIS")]
+public class GsPais
 {
-    [Table("gs_pais")]
-    public class GsPais
-    {
-        [Key]
-        public int CodPais { get; set; }
-        public string NomPais { get; set; }
-        public ICollection<GsEstado> Estados { get; set; }
-    }
+    [Key]
+    [Column("COD_PAIS")]
+    public int CodPais { get; set; }
+
+    [Column("NOM_PAIS")]
+    public string NomPais { get; set; }
 }

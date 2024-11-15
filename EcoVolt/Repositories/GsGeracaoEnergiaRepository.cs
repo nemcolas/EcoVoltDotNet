@@ -1,4 +1,5 @@
-﻿using EcoVolt.Models;
+﻿using EcoVolt.Data;
+using EcoVolt.Models;
 using EcoVolt.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 

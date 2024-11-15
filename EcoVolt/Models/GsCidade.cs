@@ -1,18 +1,22 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EcoVolt.Models
+namespace EcoVolt.Models;
+
+[Table("GS_CIDADE")]
+public class GsCidade
 {
-    [Table("gs_cidade")]
-    public class GsCidade
-    {
-        [Key]
-        public int CodCidade { get; set; }
-        public string NomCidade { get; set; }
-        public int CodEstado { get; set; }
-        [ForeignKey("CodEstado")]
-        public GsEstado Estado { get; set; }
-        public ICollection<GsBairro> Bairros { get; set; }
-    }
+    [Key]
+    [Column("COD_CIDADE")]
+    public int CodCidade { get; set; }
+
+    [Column("NOM_CIDADE")]
+    public string NomCidade { get; set; }
+
+    [Column("COD_ESTADO")]
+    public int CodEstado { get; set; }
+
+ 
+    [ForeignKey("CodEstado")]
+    public virtual GsEstado Estado { get; set; }
 }

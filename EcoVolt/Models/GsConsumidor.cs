@@ -1,22 +1,30 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EcoVolt.Models
+namespace EcoVolt.Models;
+
+[Table("GS_CONSUMIDOR")]
+public class GsConsumidor
 {
-    [Table("gs_consumidor")]
-    public class GsConsumidor
-    {
-        [Key]
-        public int IdConsumidor { get; set; }
-        public double EnergiaAtribuidaKwh { get; set; }
-        public string NivelPrioridade { get; set; }
-        public int IdTipoConsumidor { get; set; }
-        [ForeignKey("IdTipoConsumidor")]
-        public GsTipoConsumidor TipoConsumidor { get; set; }
-        public int IdLocalizacao { get; set; }
-        [ForeignKey("IdLocalizacao")]
-        public GsLocalizacao Localizacao { get; set; }
-        public ICollection<GsConsumoEnergia> ConsumosEnergia { get; set; }
-    }
+    [Key]
+    [Column("ID_CONSUMIDOR")]
+    public int IdConsumidor { get; set; }
+
+    [Column("ENERGIA_ATRIBUIDA_KWH")]
+    public decimal? EnergiaAtribuidaKwh { get; set; }
+
+    [Column("NIVEL_PRIORIDADE")]
+    public string NivelPrioridade { get; set; }
+
+    [Column("ID_TIPO_CONSUMIDOR")]
+    public int? IdTipoConsumidor { get; set; }
+
+    [Column("ID_LOCALIZACAO")]
+    public int? IdLocalizacao { get; set; }
+    
+    [ForeignKey("IdTipoConsumidor")]
+    public virtual GsTipoConsumidor TipoConsumidor { get; set; }
+
+    [ForeignKey("IdLocalizacao")]
+    public virtual GsLocalizacao Localizacao { get; set; }
 }

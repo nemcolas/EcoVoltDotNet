@@ -1,25 +1,27 @@
 ﻿using EcoVolt.Models;
 using Microsoft.EntityFrameworkCore;
 
+namespace EcoVolt.Data;
+
 public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<GsPais>().ToTable("gs_pais");
-        modelBuilder.Entity<GsEstado>().ToTable("gs_estado");
-        modelBuilder.Entity<GsCidade>().ToTable("gs_cidade");
-        modelBuilder.Entity<GsBairro>().ToTable("gs_bairro");
-        modelBuilder.Entity<GsLocalizacao>().ToTable("gs_localizacao");
-        modelBuilder.Entity<GsConsumidor>().ToTable("gs_consumidor");
-        modelBuilder.Entity<GsConsumoEnergia>().ToTable("gs_consumo_energia");
-        modelBuilder.Entity<GsFonteEnergia>().ToTable("gs_fonte_energia");
-        modelBuilder.Entity<GsGeracaoEnergia>().ToTable("gs_geracao_energia");
-        modelBuilder.Entity<GsTipoConsumidor>().ToTable("gs_tipo_consumidor");
-        modelBuilder.Entity<GsTipoFonte>().ToTable("gs_tipo_fonte");
-        modelBuilder.Entity<GsDispositivo>().ToTable("gs_dispositivo");
-        modelBuilder.Entity<GsTipoDispositivo>().ToTable("gs_tipo_dispositivo");
+        modelBuilder.Entity<GsPais>().ToTable("GS_PAIS");
+        modelBuilder.Entity<GsEstado>().ToTable("GS_ESTADO");
+        modelBuilder.Entity<GsCidade>().ToTable("GS_CIDADE");
+        modelBuilder.Entity<GsBairro>().ToTable("GS_BAIRRO");
+        modelBuilder.Entity<GsLocalizacao>().ToTable("GS_LOCALIZACAO");
+        modelBuilder.Entity<GsConsumidor>().ToTable("GS_CONSUMIDOR");
+        modelBuilder.Entity<GsConsumoEnergia>().ToTable("GS_CONSUMO_ENERGIA");
+        modelBuilder.Entity<GsFonteEnergia>().ToTable("GS_FONTE_ENERGIA");
+        modelBuilder.Entity<GsGeracaoEnergia>().ToTable("GS_GERACAO_ENERGIA");
+        modelBuilder.Entity<GsTipoConsumidor>().ToTable("GS_TIPO_CONSUMIDOR");
+        modelBuilder.Entity<GsTipoFonte>().ToTable("GS_TIPO_FONTE");
+        modelBuilder.Entity<GsDispositivo>().ToTable("GS_DISPOSITIVO");
+        modelBuilder.Entity<GsTipoDispositivo>().ToTable("GS_TIPO_DISPOSITIVO");
     }
 
     public DbSet<GsPais> GsPais { get; set; }

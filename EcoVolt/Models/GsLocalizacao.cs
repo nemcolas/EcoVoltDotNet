@@ -1,20 +1,27 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EcoVolt.Models
+namespace EcoVolt.Models;
+
+[Table("GS_LOCALIZACAO")]
+public class GsLocalizacao
 {
-    [Table("gs_localizacao")]
-    public class GsLocalizacao
-    {
-        [Key]
-        public int IdLocalizacao { get; set; }
-        public double Latitude { get; set; }
-        public double Longitude { get; set; }
-        public string EnderecoCompleto { get; set; }
-        public int CodBairro { get; set; }
-        [ForeignKey("CodBairro")]
-        public GsBairro Bairro { get; set; }
-        public ICollection<GsConsumidor> Consumidores { get; set; }
-    }
+    [Key]
+    [Column("ID_LOCALIZACAO")]
+    public int IdLocalizacao { get; set; }
+
+    [Column("LATITUDE")]
+    public decimal Latitude { get; set; }
+
+    [Column("LONGITUDE")]
+    public decimal Longitude { get; set; }
+
+    [Column("ENDERECO_COMPLETO")]
+    public string EnderecoCompleto { get; set; }
+
+    [Column("COD_BAIRRO")]
+    public int CodBairro { get; set; }
+    
+    [ForeignKey("CodBairro")]
+    public virtual GsBairro Bairro { get; set; }
 }

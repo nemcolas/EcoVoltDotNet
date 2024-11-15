@@ -1,0 +1,43 @@
+@model EcoVolt.Models.GsConsumidor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>GsConsumidor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="EnergiaAtribuidaKwh" class="control-label"></label>
+                <input asp-for="EnergiaAtribuidaKwh" class="form-control" />
+                <span asp-validation-for="EnergiaAtribuidaKwh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NivelPrioridade" class="control-label"></label>
+                <input asp-for="NivelPrioridade" class="form-control" />
+                <span asp-validation-for="NivelPrioridade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdTipoConsumidor" class="control-label"></label>
+                <select asp-for="IdTipoConsumidor" class ="form-control" asp-items="ViewBag.IdTipoConsumidor"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdLocalizacao" class="control-label"></label>
+                <select asp-for="IdLocalizacao" class ="form-control" asp-items="ViewBag.IdLocalizacao"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

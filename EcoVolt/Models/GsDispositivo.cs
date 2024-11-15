@@ -1,20 +1,27 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EcoVolt.Models
+namespace EcoVolt.Models;
+
+[Table("GS_DISPOSITIVO")]
+public class GsDispositivo
 {
-    [Table("gs_dispositivo")]
-    public class GsDispositivo
-    {
-        [Key]
-        public int IdDispositivo { get; set; }
-        public string NomeDispositivo { get; set; }
-        public int IdTipoDispositivo { get; set; }
-        [ForeignKey("IdTipoDispositivo")]
-        public GsTipoDispositivo TipoDispositivo { get; set; }
-        public int IdConsumidor { get; set; }
-        [ForeignKey("IdConsumidor")]
-        public GsConsumidor Consumidor { get; set; }
-    }
+    [Key]
+    [Column("ID_DISPOSITIVO")]
+    public int IdDispositivo { get; set; }
+
+    [Column("CONSUMO_ENERGIA_KWH")]
+    public decimal? ConsumoEnergiaKwh { get; set; }
+
+    [Column("TIPO_DISPOSITIVO")]
+    public int? TipoDispositivoId { get; set; }
+
+    [Column("ID_CONSUMIDOR")]
+    public int? IdConsumidor { get; set; }
+    
+    [ForeignKey("TipoDispositivoId")]
+    public virtual GsTipoDispositivo TipoDispositivo { get; set; }
+
+    [ForeignKey("IdConsumidor")]
+    public virtual GsConsumidor Consumidor { get; set; }
 }

@@ -1,33 +1,32 @@
-﻿using EcoVolt.Models;
-using EcoVolt.Repositories;
-using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
+using EcoVolt.Models;
+using EcoVolt.Repositories.Interfaces;
 
 namespace EcoVolt.Controllers
 {
-    public class FonteEnergiaController : Controller
+    public class GsFonteEnergiaController : Controller
     {
-        private readonly IFonteEnergiaRepository _fonteEnergiaRepository;
+        private readonly IGsFonteEnergiaRepository _fonteEnergiaRepository;
 
-        public FonteEnergiaController(IFonteEnergiaRepository fonteEnergiaRepository)
+        public GsFonteEnergiaController(IGsFonteEnergiaRepository fonteEnergiaRepository)
         {
             _fonteEnergiaRepository = fonteEnergiaRepository;
         }
 
         public async Task<IActionResult> Index()
         {
-            var fontes = await _fonteEnergiaRepository.GetAllAsync();
-            return View(fontes);
+            var fontesEnergia = await _fonteEnergiaRepository.GetAllAsync();
+            return View(fontesEnergia);
         }
 
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int id)
         {
-            if (id == null) return NotFound();
-
-            var fonte = await _fonteEnergiaRepository.GetByIdAsync(id.Value);
-            if (fonte == null) return NotFound();
-
-            return View(fonte);
+            var fonteEnergia = await _fonteEnergiaRepository.GetByIdAsync(id);
+            if (fonteEnergia == null)
+            {
+                return NotFound();
+            }
+            return View(fonteEnergia);
         }
 
         public IActionResult Create()
@@ -36,53 +35,53 @@ namespace EcoVolt.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("GeracaoEnergiaKwh, CapacidadeBateriaKwh, IdTipoFonte, IdLocalizacao")] FonteEnergia fonte)
+        public async Task<IActionResult> Create(GsFonteEnergia fonteEnergia)
         {
             if (ModelState.IsValid)
             {
-                await _fonteEnergiaRepository.AddAsync(fonte);
+                await _fonteEnergiaRepository.AddAsync(fonteEnergia);
                 return RedirectToAction(nameof(Index));
             }
-            return View(fonte);
+            return View(fonteEnergia);
         }
 
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
-            if (id == null) return NotFound();
-
-            var fonte = await _fonteEnergiaRepository.GetByIdAsync(id.Value);
-            if (fonte == null) return NotFound();
-
-            return View(fonte);
+            var fonteEnergia = await _fonteEnergiaRepository.GetByIdAsync(id);
+            if (fonteEnergia == null)
+            {
+                return NotFound();
+            }
+            return View(fonteEnergia);
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id, GeracaoEnergiaKwh, CapacidadeBateriaKwh, IdTipoFonte, IdLocalizacao")] FonteEnergia fonte)
+        public async Task<IActionResult> Edit(int id, GsFonteEnergia fonteEnergia)
         {
-            if (id != fonte.Id) return NotFound();
+            if (id != fonteEnergia.IdFonte)
+            {
+                return NotFound();
+            }
 
             if (ModelState.IsValid)
             {
-                await _fonteEnergiaRepository.UpdateAsync(fonte);
+                await _fonteEnergiaRepository.UpdateAsync(fonteEnergia);
                 return RedirectToAction(nameof(Index));
             }
-            return View(fonte);
+            return View(fonteEnergia);
         }
 
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id == null) return NotFound();
-
-            var fonte = await _fonteEnergiaRepository.GetByIdAsync(id.Value);
-            if (fonte == null) return NotFound();
-
-            return View(fonte);
+            var fonteEnergia = await _fonteEnergiaRepository.GetByIdAsync(id);
+            if (fonteEnergia == null)
+            {
+                return NotFound();
+            }
+            return View(fonteEnergia);
         }
 
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _fonteEnergiaRepository.DeleteAsync(id);

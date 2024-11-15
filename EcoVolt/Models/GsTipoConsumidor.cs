@@ -1,15 +1,15 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EcoVolt.Models
+namespace EcoVolt.Models;
+
+[Table("GS_TIPO_CONSUMIDOR")]
+public class GsTipoConsumidor
 {
-    [Table("gs_tipo_consumidor")]
-    public class GsTipoConsumidor
-    {
-        [Key]
-        public int IdTipoConsumidor { get; set; }
-        public string Descricao { get; set; }
-        public ICollection<GsConsumidor> Consumidores { get; set; }
-    }
+    [Key]
+    [Column("ID_TIPO_CONSUMIDOR")]
+    public int IdTipoConsumidor { get; set; }
+
+    [Column("DESCRICAO")]
+    public string Descricao { get; set; }
 }
